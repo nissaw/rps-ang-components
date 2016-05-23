@@ -1,0 +1,36 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "'Rock Paper Scissors'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nissaw/rocketPepperSchism.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nissaw/rocketPepperSchism/issues"
+  },
+  "homepage": "https://github.com/nissaw/rocketPepperSchism#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.3.0",
+    "bootstrap": "^3.3.6",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "stylus-loader": "^2.1.0",
+    "webpack": "^1.13.1"
+  }
+}
