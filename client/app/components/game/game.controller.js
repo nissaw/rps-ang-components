@@ -4,7 +4,7 @@ class GameController {
   constructor(Engine){
     this.title = 'Time to Play';
     this.Engine = Engine;
-    this.record = Engine.record;
+    this.record = Engine.getRecord();
   };
 }
 

@@ -9,12 +9,20 @@ const engine = ($http) => {
     outcome: 'You Pick first!',
     alertStatus: 'won'
   };
-
-
   const record = {
     won: 0,
     lost: 0,
     tied: 0
+  };
+
+  const getGamesPlayed = () => {
+    return gamesPlayed;
+  };
+  const getLastGame = () => {
+    return lastGame;
+  };
+  const getRecord = () => {
+    return record;
   };
 
   const randomPick = () => {
@@ -64,7 +72,7 @@ const engine = ($http) => {
     }
   };
 
-  return {play, gamesPlayed, record, lastGame};
+  return {play, getGamesPlayed, getRecord, getLastGame};
 }
 
 engine.$inject = ['$http'];

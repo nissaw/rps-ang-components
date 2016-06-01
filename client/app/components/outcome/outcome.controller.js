@@ -6,8 +6,8 @@ class OutcomeController {
     // assigning local variables to nested properties
     // <ala the commented out line> did not work
     // this.alertStatus = Engine.lastGame.alertStatus;
-    this.record = Engine.record;
-    this.lastGame = Engine.lastGame;
+    this.record = Engine.getRecord();
+    this.lastGame = Engine.getLastGame();
   }
 };
 

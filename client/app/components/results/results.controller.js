@@ -3,7 +3,7 @@ import _ from 'lodash';
 class ResultsController {
   constructor(Engine){
     this.Engine = Engine;
-    this.gamesPlayed = Engine.gamesPlayed;
+    this.gamesPlayed = Engine.getGamesPlayed();
   }
 };
 
