@@ -8,8 +8,11 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, 'dist'),
-    //publicPath need for Hot Module Reload
-    publicPath: '/dist/',
+    // publicPath need for Hot Module Reload
+    // publicPath: '/dist/',
+    
+    // publicPath for gh-pages
+    publicPath: '/rps-ang-components',
     filename: 'bundle.js'
   },
 
