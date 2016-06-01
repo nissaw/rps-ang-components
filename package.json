@@ -1,36 +1,44 @@
 {
   "name": "rps",
   "version": "1.0.0",
-  "description": "'Rock Paper Scissors'",
-  "main": "index.js",
+  "description": "'Rock Paper Slivers'",
+  "main": "app.js",
   "scripts": {
+    "start": "webpack-dev-server --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nissaw/rocketPepperSchism.git"
+    "url": ""
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nissaw/rocketPepperSchism/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/nissaw/rocketPepperSchism#readme",
+  "homepage": "",
   "dependencies": {
     "angular": "^1.5.5",
     "angular-ui-router": "^0.3.0",
     "bootstrap": "^3.3.6",
+    "jeet": "^6.1.2",
     "lodash": "^4.13.1",
     "moment": "^2.13.0",
+    "normalize.css": "^4.1.1",
+    "rupture": "^0.6.1"
   },
   "devDependencies": {
+    "babel-core": "^6.9.0",
     "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
     "gulp": "^3.9.1",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
     "stylus-loader": "^2.1.0",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
